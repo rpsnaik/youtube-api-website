@@ -1,0 +1,124 @@
+
+
+
+<style type="text/css">
+ 
+   .need{
+   	background-color: #333;
+   	border-radius: 0.6em;
+   	font-family: 'Open Sans', sans-serif;
+   }
+   .need h3{
+   	  padding: 20px;
+   	  margin: 0px;
+   	  font-family: 'Open Sans', sans-serif;
+   	  
+   }
+   .need h3 a{
+   	 color: #fff;
+   	 font-family: 'Open Sans', sans-serif;
+   }
+   .need p{
+   	background-color: #e3e3e3;
+   	font-family: 'Open Sans', sans-serif;
+   	color: #333;
+   	padding: 20px;
+   }
+   .need1{
+   	width: 100%;
+   }
+   .btn{
+      border: none;
+      font-size: 0.8em;
+   }
+   .btn:hover{
+      background-color: #000;
+      color: #fff;
+      border: none;
+   }
+   .ress{
+   	 border-radius:0.7em; 
+   }
+</style>
+<br>
+   <!--
+    <div class="need">
+    	<h3><a href="http://www.youtube.com/embed/{{videoid}}">{{title}}</a></h3>
+    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+
+-->
+
+    <section  class="ress">
+        
+        <div class="row">
+            <div class="masonry">
+
+                <div class=""></div>
+
+                <article class="" data-aos="">
+                        
+    
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            
+                            <div class="entry__date">
+                                <a href="#">Published at : {{date}}</a>
+                            </div>
+                            <h1 style="text-transform: capitalize;" class="entry__title"><a href="./stream-online.php?id={{videoid}}&title={{title}}&des={{descrip}}&chan={{channel}}&da={{date}}&typ={{kind}}">{{title}}</a></h1>
+
+                            <img src="https://img.youtube.com/vi/{{videoid}}/hqdefault.jpg">
+                            
+                        </div>
+                        <div class="entry__excerpt">
+                            <p style="color: #777;padding: 0px;margin: 0px;">
+                                Description : {{descrip}}
+                            </p>
+                        </div>
+                        <div class="entry__meta">
+                        	
+                            <span class="entry__meta-links">
+                                <a href="#">Source : {{channel}}</a> 
+                                <br>
+                                <a href="#">#Video/Audio</a>
+
+                            </span>
+                            <br>
+                            <!--https://youtube.com/watch?v={{videoid}}-->
+                            <br>
+                            <a  href="./mp3lio-musicplayer.php?id={{videoid}}&title={{title}}&des={{descrip}}&chan={{channel}}&da={{date}}&typ={{kind}}"><p class="btn btn-danger"> <i class="fa fa-play"></i> Play</p></a>
+                            
+                            <a href="./stream-online.php?id={{videoid}}&title={{title}}&des={{descrip}}&chan={{channel}}&dat={{date}}&typ={{kind}}"><p class="btn btn-danger"> <i name="q" style="font-size: 1.4em;" class="fa fa-video"></i> Play Video</p></a>
+                            <a href="./download.php/?url={{videoid}}" target="_blank"><p class="btn btn-danger"> <i class="fa fa-download"></i> Download</p></a>
+                            <br>
+                        <a style="color: #000;" href="#">Music</a>
+                        </div>
+                    </div>
+                
+                </article> 
+                  </div>
+              </div>
+          </section>
+
+
+
+          <div id="player"></div>
+
+
+
+
+
+
+        
+                 
+
+
+    <!--<iframe  class="video w100" width="640" height="360" src="//www.youtube.com/embed/{{videoid}}" frameborder="0" allowfullscreen></iframe>-->  
+
+
